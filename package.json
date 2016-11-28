@@ -1,0 +1,28 @@
+{
+  "name": "furkot-import-gpx",
+  "version": "0.0.0",
+  "description": "Import GPX for Furkot",
+  "author": {
+    "name": "Damian Krzeminski",
+    "email": "pirxpilot@code42day.com",
+    "url": "https://code42day.com"
+  },
+  "repository": "code42day/furkot-import-gpx",
+  "license": "MIT",
+  "keywords": [
+    "furkot-import-gpx",
+    "import",
+    "gpx",
+    "furkot",
+    "parse"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "jshint": "^2.9.4",
+    "mocha": "^3.2.0",
+    "should": "^11.1.1"
+  },
+  "scripts": {
+    "test": "make check"
+  }
+}
