@@ -1,0 +1,87 @@
+{
+   "stops": [
+      {
+         "coordinates": {
+            "lon": -73.52074502035975,
+            "lat": 43.6626710370183
+         },
+         "name": "Lake George Lookout",
+         "pin": 61
+      },
+      {
+         "coordinates": {
+            "lon": -73.70841097086668,
+            "lat": 43.4105309844017
+         },
+         "name": "Wingate by Wyndham",
+         "notes": "3994 Hwy 9l",
+         "pin": 0
+      }
+   ],
+   "destination": "Eastern Lakes Ride",
+   "route": [
+      [
+         {
+            "coordinates": {
+               "lon": -73.70841097086668,
+               "lat": 43.4105309844017
+            },
+            "name": "Wingate by Wyndham",
+            "notes": "3994 Hwy 9l",
+            "pin": 0,
+            "parent": {
+               "index": 0,
+               "name": "Eastern Lakes Ride",
+               "subtrack": true
+            }
+         },
+         {
+            "coordinates": {
+               "lon": -73.6740243807435,
+               "lat": 43.517577359452844
+            },
+            "name": "4288 Lake Shore Dr",
+            "notes": "4288 Lake Shore Dr",
+            "timestamp": "2011-07-05T11:47:01Z",
+            "route": {
+               "polyline": "wr}gGrd{`M~CtN??mHz@eBNyFz@gNlEgJ~As@NsDr@}HvBkD`@qCHcAQyCs@mAY_C{@eAYwBq@kDeAqCcA}Ai@kAc@{C{@}AOeBNgBb@}AViGtAs@P_C}As@{@wBkD??Qa@i@gBYcAcAiCc@a@}Ai@a@Ya@QYGoB{@{@a@s@{@oCwEgBwBkDgC}HgFuAeAmBuAgBq@eEmAkAi@qNsG{DwBuAcAgBwBi@a@YYuAmA_CwBc@YwBcAkAk@YG}DeB}Ac@{@GsDP??yC`@gB?wBs@eE_CcEiCgBeBcA_BYq@a@s@oBwBuAeAeEwBaDkAuAQa@GiG?oBQcDcAWGwE_B{DqCmAkAqCaCsD}AwBq@oBk@}E}AaCk@uIOk@?qCQ_CPcDXmE`@{@?eBa@YIi@GuAGeE?k@GwBeA??q@a@eE{@a@?}Aa@}@QcAa@oBcA{KaK{@k@{@Y{@i@aD{@sKiCeBa@sGwBmEoB{@s@}A{@yC}AQQoQaHa@QyCeBcDeAYG}E{@{Ca@_U_FwBa@cEa@aCFuIz@aC?cEY_B?a@HsD`@cA?aCIsH_CwMiCyCa@s@OoBc@uEq@s@I"
+            }
+         },
+         {
+            "coordinates": {
+               "lon": -73.6389032844454,
+               "lat": 43.59497752971947
+            },
+            "name": "5581 Lake Shore Dr",
+            "notes": "5581 Lake Shore Dr",
+            "timestamp": "2011-07-05T11:47:09Z",
+            "route": {
+               "polyline": "yorhGzmt`MkDa@eEHgNbAaCXoF`@oBQsAi@c@Q}EaDiCuA}LyCiCeA}A{@YG??}EiCcDgCeBeAcHyCuAi@eAc@kAi@sDoBk@YuAi@wBk@wFOiGIoFa@_BGgC?iCQs@OuAk@gC{@IGiDoBoBkA{@k@eA{@{@cA_C}DYi@oFgJeEiG{K_M{@cA}AeBYYkAmAuAs@YGk@OwBk@uAYsH}AiCi@a@Ia@GmAQi@GcDi@yCc@oF{@}Aq@_BeAWOc@YGGa@Qs@QkAOaC?kANs@H??gBXwBp@qCdAyCNcAGoBk@eEsAeBIiCXa@FaCz@{@Xa@HkDbA_C`@_CG{CQwBOoFk@sDuAyCkAmAa@kDc@cHcAoCi@_Bk@_CkA{@eAgByCgC}HmAmEOs@uAiDc@eA{@cAcE}DeAq@iGmEsD{CcAq@uAmA{DwBaGeBiCuAsDqCgBmAsDiCaAq@"
+            }
+         },
+         {
+            "coordinates": {
+               "lon": -73.60809098929167,
+               "lat": 43.63845563493669
+            },
+            "name": "6076 Lake Shore Dr",
+            "notes": "6076 Lake Shore Dr",
+            "timestamp": "2011-07-05T11:47:45Z",
+            "route": {
+               "polyline": "ssaiGfrm`MaCgB{@{@IOYQiDcDgBcAkAYc@GaDYuAQoBi@oFsDcAYqCcA{CoBuAwBcAyCs@_FWgBk@gC{@gBeEgFi@i@gBmAeBq@wBYwB?kD`@eENeBa@mAq@??uA_BuEqKgBsD{@mAkLiNeAcAmBqCk@mAa@wB?uAPuAh@eB`@a@`@a@pFuAjAk@j@{@`@cAXoBI_Ca@eAYi@uAwBiDaCiCmBcDcDsDwByCmAiGwBsOqGoM}AeEk@mIcE{@?}Ah@mAbAs@z@gCtAwBtAeEjDwBfBuA`@cDX_Cs@oBcAyC{@uEYmAYcL}B"
+            }
+         },
+         {
+            "coordinates": {
+               "lon": -73.52074502035975,
+               "lat": 43.6626710370183
+            },
+            "name": "Lake George Lookout",
+            "route": {
+               "polyline": "edjiGjwg`MgQmDkSs@qGYc@Q{@WkA}@qCiDwB}DoBmEeEmIi@aCeI}LeAuAsH{K}O}TmIiNmA}D{@gCWeAIkA?mAz@aDtAgBdEeEh@{@X{@XkA?mA?uAY}As@yCmBcDeA_Ca@uAcAiCk@eBsDoM??O}AFiCPs@`@cAp@mA|@}AF{@QyCOuEs@iJYmBs@qCoFsOeEoTcAkHO}E?gFVuHb@oF?oBeAuTi@qJIoBHoFNaD~AsKrAyFr@cE`@eEb@iG?_FNyCj@qCh@kAnBiCh@}AH{@F_BGq@YeAwB{DYmAIcA?}Aj@aC`@iDFkDYqCGyC?mAj@qGFuAGuAQ}AmAyBq@a@kDuAcAcA{@}AIwB???sD?_BGeBs@eEO_C_@gD"
+            },
+            "pin": 61
+         }
+      ]
+   ]
+}

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" creator="Furkot" version="1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:frkt="http://www.furkot.com/2014/gpx" xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd http://www.furkot.com/2014/gpx http://cdn.furkot.com/schema/gpx.xsd http://www.garmin.com/xmlschemas/GpxExtensions/v3 http://www8.garmin.com/xmlschemas/GpxExtensionsv3.xsd">
+  <metadata>
+    <name>Santa Fe - Boston</name>
+    <desc>ddd</desc>
+    <author>
+      <name>Furkot - road trip planner</name>
+      <email id="trips" domain="furkot.com"></email>
+      <link href="https://trips.furkot.com">
+        <text>Furkot</text>
+      </link>
+    </author>
+  </metadata>
+  <wpt lat="35.682785" lon="-105.924698">
+    <sym>Convenience Store</sym>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:Address>
+          <gpxx:StreetAddress>1050 Fall River Court</gpxx:StreetAddress>
+          <gpxx:City>Estes Park</gpxx:City>
+          <gpxx:State>CO</gpxx:State>
+          <gpxx:Country>United States</gpxx:Country>
+        </gpxx:Address>
+        <gpxx:PhoneNumber>(508) 872-6101</gpxx:PhoneNumber>
+      </gpxx:WaypointExtension>
+      <frkt:address>Santa Fe, NM</frkt:address>
+    </extensions>
+  </wpt>
+  <rte>
+  </rte>
+</gpx>

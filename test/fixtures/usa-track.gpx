@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" creator="Furkot" version="1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:frkt="http://www.furkot.com/2014/gpx" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd http://www.furkot.com/2014/gpx http://cdn.furkot.com/schema/gpx.xsd">
+  <metadata>
+    <name>Santa Fe - Boston</name>
+    <desc>ddd</desc>
+    <author>
+      <name>Furkot - road trip planner</name>
+      <email id="trips" domain="furkot.com"></email>
+      <link href="https://trips.furkot.com">
+        <text>Furkot</text>
+      </link>
+    </author>
+  </metadata>
+  <trk>
+    <trkseg>
+    </trkseg>
+    <trkseg>
+      <trkpt lat="35.682785" lon="-105.924698">
+        <name>826 East Palace Avenue, Santa Fe, NM 87501, USA</name>
+        <extensions>
+          <frkt:address>826 East Palace Avenue, Santa Fe, NM 87501, USA</frkt:address>
+        </extensions>
+      </trkpt>
+    </trkseg>
+  </trk>
+  <trk>
+    <trkseg>
+      <trkpt lat="35.682785" lon="-105.924698">
+        <name>826 East Palace Avenue, Santa Fe, NM 87501, USA</name>
+        <extensions>
+          <frkt:address>826 East Palace Avenue, Santa Fe, NM 87501, USA</frkt:address>
+        </extensions>
+      </trkpt>
+      <trkpt lat="35.491661" lon="-106.065979">
+        <name>Shell</name>
+        <link href="http://www.mygasfeed.com/locations/details/94154"></link>
+        <sym>25</sym>
+        <extensions>
+          <frkt:duration>600000</frkt:duration>
+          <frkt:address>3859-3867 Highway 14, Santa Fe, NM 87508, USA</frkt:address>
+        </extensions>
+      </trkpt>
+      <trkpt lat="37.33639" lon="-92.907585">
+        <name>The Dickey House Bed &amp; Breakfast</name>
+        <link href="/book/venere?id=436490"></link>
+        <extensions>
+          <frkt:address>The Dickey House Bed &amp; Breakfast</frkt:address>
+        </extensions>
+      </trkpt>
+      <trkpt lat="37.82197" lon="-92.16024">
+        <name>Alliance Inn &amp; Suites</name>
+        <link href="http://www.easytobook.com/en/united-states-of-america/missouri/st-robert/microtel-inn-suites-139992/?hotel_id=139992&amp;utm_campaign=United%20States&amp;utm_term=St.%20Robert&amp;utm_source=code42day&amp;utm_medium=affiliate&amp;amu=280826683#stars=2"></link>
+        <extensions>
+          <frkt:address>402-460 Historic U.S. 66, St. Robert, MO 65584, USA</frkt:address>
+        </extensions>
+      </trkpt>
+      <trkpt lat="41.869561" lon="-87.626953">
+        <name>Cook, IL, USA</name>
+        <extensions>
+          <frkt:duration>3600000</frkt:duration>
+          <frkt:address>1011 South State Street, Chicago, IL 60605, USA</frkt:address>
+        </extensions>
+      </trkpt>
+      <trkpt lat="41.976669" lon="-87.668301">
+        <name>Swedish American Museum Center</name>
+        <link href="http://www.fodors.com/world/north-america/usa/illinois/chicago/review-194863.html"></link>
+        <sym>33</sym>
+        <extensions>
+          <frkt:duration>3600000</frkt:duration>
+          <frkt:address>5211 N. Clark St., Far North, Chicago, IL, 60640</frkt:address>
+        </extensions>
+      </trkpt>
+      <trkpt lat="41.976855" lon="-87.769703">
+        <name>American Science and Surplus</name>
+        <link href="http://www.atlasobscura.com/places/american-science-and-surplus"></link>
+        <sym>33</sym>
+        <extensions>
+          <frkt:duration>3600000</frkt:duration>
+          <frkt:address>5316 N. Milwaukee Avenue, Chicago, IL</frkt:address>
+        </extensions>
+      </trkpt>
+      <trkpt lat="41.933653" lon="-84.971803">
+        <name>Red Roof Inn Coldwater</name>
+        <link href="http://www.booking.com/hotel/us/red-roof-inn-coldwater.html?aid=344132"></link>
+        <extensions>
+          <frkt:address>Willowbrook Lane, Coldwater, MI 49036, USA</frkt:address>
+        </extensions>
+      </trkpt>
+      <trkpt lat="41.876354" lon="-80.761147">
+        <name>Sheetz</name>
+        <link href="http://www.mygasfeed.com/locations/details/48723"></link>
+        <sym>25</sym>
+        <extensions>
+          <frkt:duration>600000</frkt:duration>
+          <frkt:address>2411 N Ridge Rd E, Ashtabula, OH</frkt:address>
+        </extensions>
+      </trkpt>
+      <trkpt lat="42.395993" lon="-71.266015">
+        <name>Embassy Suites Boston/Waltham</name>
+        <link href="http://www.booking.com/hotel/us/embassy-suites-boston-waltham.html?aid=344132"></link>
+        <extensions>
+          <frkt:address>550 Winter Street, Waltham, MA 02451, USA</frkt:address>
+        </extensions>
+      </trkpt>
+      <trkpt lat="42.348472" lon="-71.307111">
+        <name>Spellman Museum of Stamps &amp; Postal History</name>
+        <link href="http://en.wikipedia.org/wiki/Spellman_Museum_of_Stamps_&amp;_Postal_History"></link>
+        <sym>47</sym>
+        <extensions>
+          <frkt:duration>3600000</frkt:duration>
+          <frkt:address>Weston, MA</frkt:address>
+        </extensions>
+      </trkpt>
+      <trkpt lat="42.358431" lon="-71.059773">
+        <name>Boston, MA</name>
+        <extensions>
+          <frkt:address>Boston, MA, USA</frkt:address>
+        </extensions>
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>
