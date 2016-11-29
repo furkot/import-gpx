@@ -1,0 +1,94 @@
+{
+  "destination": "Santa Fe - Boston",
+  "notes": "ddd",
+  "track": [
+    [
+      {
+        "coordinates": {
+          "lon": -105.924698,
+          "lat": 35.682785
+        },
+        "parent": {
+          "index": 0
+        }
+      }
+    ],
+    [
+      {
+        "coordinates": {
+          "lon": -105.924698,
+          "lat": 35.682785
+        },
+        "parent": {
+          "index": 1
+        }
+      },
+      {
+        "coordinates": {
+          "lon": -106.065979,
+          "lat": 35.491661
+        }
+      },
+      {
+        "coordinates": {
+          "lon": -92.907585,
+          "lat": 37.33639
+        }
+      },
+      {
+        "coordinates": {
+          "lon": -92.16024,
+          "lat": 37.82197
+        }
+      },
+      {
+        "coordinates": {
+          "lon": -87.626953,
+          "lat": 41.869561
+        }
+      },
+      {
+        "coordinates": {
+          "lon": -87.668301,
+          "lat": 41.976669
+        }
+      },
+      {
+        "coordinates": {
+          "lon": -87.769703,
+          "lat": 41.976855
+        }
+      },
+      {
+        "coordinates": {
+          "lon": -84.971803,
+          "lat": 41.933653
+        }
+      },
+      {
+        "coordinates": {
+          "lon": -80.761147,
+          "lat": 41.876354
+        }
+      },
+      {
+        "coordinates": {
+          "lon": -71.266015,
+          "lat": 42.395993
+        }
+      },
+      {
+        "coordinates": {
+          "lon": -71.307111,
+          "lat": 42.348472
+        }
+      },
+      {
+        "coordinates": {
+          "lon": -71.059773,
+          "lat": 42.358431
+        }
+      }
+    ]
+  ]
+}

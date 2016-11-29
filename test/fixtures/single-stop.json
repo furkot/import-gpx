@@ -1,0 +1,15 @@
+{
+  "destination": "Santa Fe - Boston",
+  "notes": "ddd",
+  "stops": [
+    {
+      "coordinates": {
+        "lon": -105.924698,
+        "lat": 35.682785
+      },
+      "phone": "(508) 872-6101",
+      "address": "1050 Fall River Court, Estes Park, CO",
+      "pin": 78
+    }
+  ]
+}
