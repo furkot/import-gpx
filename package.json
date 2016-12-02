@@ -17,6 +17,7 @@
     "parse"
   ],
   "dependencies": {
+    "furkot-garmin-data": "^1.0.0",
     "polyline-encoded": "0.0.4",
     "sax-stream": "^1.2.2"
   },
