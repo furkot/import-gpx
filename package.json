@@ -7,7 +7,7 @@
     "email": "pirxpilot@code42day.com",
     "url": "https://code42day.com"
   },
-  "repository": "code42day/furkot-import-gpx",
+  "repository": "furkot/import-gpx",
   "license": "MIT",
   "keywords": [
     "furkot-import-gpx",
