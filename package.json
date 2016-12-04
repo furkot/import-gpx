@@ -19,12 +19,12 @@
   "dependencies": {
     "furkot-garmin-data": "^1.0.0",
     "polyline-encoded": "0.0.4",
-    "sax-super-stream": "~0"
+    "sax-super-stream": "^1.0.0"
   },
   "devDependencies": {
-    "jshint": "^2.9.4",
-    "mocha": "^3.2.0",
-    "should": "^11.1.1"
+    "jshint": "~2",
+    "mocha": "~3",
+    "should": "~11"
   },
   "scripts": {
     "test": "make check"
