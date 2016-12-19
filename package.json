@@ -17,8 +17,8 @@
     "parse"
   ],
   "dependencies": {
+    "code42day-google-polyline": "~2",
     "furkot-garmin-data": "^1.0.0",
-    "polyline-encoded": "0.0.4",
     "sax-super-stream": "^1.0.1"
   },
   "devDependencies": {
