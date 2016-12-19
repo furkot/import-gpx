@@ -1,4 +1,9 @@
 
+1.0.3 / 2016-12-18
+==================
+
+ * replace polyline-encoded with google-polyline
+
 1.0.2 / 2016-12-14
 ==================
 
