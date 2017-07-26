@@ -1,4 +1,9 @@
 
+1.0.5 / 2017-07-25
+==================
+
+ * replace code42day-google-polyline with @pirxpilot/google-polyline
+
 1.0.4 / 2017-01-02
 ==================
 
