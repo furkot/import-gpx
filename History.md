@@ -1,4 +1,10 @@
 
+2.0.0 / 2018-07-25
+==================
+
+ * remove @pirxpilot/google-polyline module
+ * return all polylines as array of lon,lat pairs without encoding
+
 1.0.5 / 2017-07-25
 ==================
 
