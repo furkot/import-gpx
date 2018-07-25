@@ -17,7 +17,6 @@
     "parse"
   ],
   "dependencies": {
-    "@pirxpilot/google-polyline": "~2",
     "furkot-garmin-data": "^1.0.0",
     "sax-super-stream": "^1.0.1"
   },
