@@ -1,0 +1,113 @@
+{
+  "destination": "test POI USA",
+  "stops": [
+    {
+      "coordinates": {
+        "lat": 39.36886,
+        "lon": -107.03426
+      },
+      "name": "Frying Pan Road - Ruidi Reservoir",
+      "notes": "122 Basalt Center Cir, Basalt, CO, USA",
+      "url": "http://www.motorcycleroads.com/75/2100/Routes/Frying-Pan-Road---Ruidi-Reservoir.html",
+      "address": "122 Basalt Center Cir, Basalt, CO"
+    },
+    {
+      "coordinates": {
+        "lat": 39.24871,
+        "lon": -106.88617
+      },
+      "name": "Co. Road 10 / Brushcreek Road : Snow Mass Village",
+      "notes": "64 Medicine Bow Rd, Pitkin County, CO, USA",
+      "url": "http://www.bestbikingroads.com/motorcycle-roads/motorbike-rides-in-united-states-/colorado-/co-road-10--_ef4840.html",
+      "address": "64 Medicine Bow Rd, Pitkin County, CO"
+    }
+  ],
+  "track": [
+    [
+      {
+        "coordinates": {
+          "lat": 39.36886,
+          "lon": -107.03426
+        },
+        "parent": {
+          "index": 0,
+          "name": "Frying Pan Road - Ruidi Reservoir",
+          "color": 18
+        }
+      },
+      {
+        "coordinates": {
+          "lat": 39.3763,
+          "lon": -107.00734
+        }
+      },
+      {
+        "coordinates": {
+          "lat": 39.3764,
+          "lon": -106.97549
+        }
+      },
+      {
+        "coordinates": {
+          "lat": 39.37911,
+          "lon": -106.91177
+        }
+      },
+      {
+        "coordinates": {
+          "lat": 39.38002,
+          "lon": -106.80866
+        }
+      },
+      {
+        "coordinates": {
+          "lat": 39.31966,
+          "lon": -106.62242
+        }
+      },
+      {
+        "coordinates": {
+          "lat": 39.29221,
+          "lon": -106.52795
+        }
+      }
+    ],
+    [
+      {
+        "coordinates": {
+          "lat": 39.24871,
+          "lon": -106.88617
+        },
+        "parent": {
+          "index": 1,
+          "name": "Co. Road 10 / Brushcreek Road : Snow Mass Village",
+          "color": 12
+        }
+      },
+      {
+        "coordinates": {
+          "lat": 39.22634,
+          "lon": -106.91952
+        }
+      },
+      {
+        "coordinates": {
+          "lat": 39.21149,
+          "lon": -106.9414
+        }
+      },
+      {
+        "coordinates": {
+          "lat": 39.21055,
+          "lon": -106.95036
+        }
+      },
+      {
+        "coordinates": {
+          "lat": 39.21051,
+          "lon": -106.95224
+        }
+      }
+    ]
+  ]
+}

@@ -70,6 +70,17 @@ describe('GPX import', function() {
     });
   });
 
+  it('parser imported guru color track', function(done) {
+    var stream = fs.createReadStream(__dirname + '/fixtures/color-guru.gpx');
+    parse(stream, function(err, trip) {
+      var expected = require('./fixtures/color-guru.json');
+      should.exist(trip);
+      should.not.exist(err);
+      trip.should.eql(expected);
+      done();
+    });
+  });
+
   it('should raise error on invalid XML file', function(done) {
     var stream = fs.createReadStream(__dirname + '/fixtures/invalid.gpx');
     parse(stream, function(err, trip) {

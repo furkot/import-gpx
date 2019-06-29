@@ -18,6 +18,7 @@
   ],
   "dependencies": {
     "furkot-garmin-data": "^1.0.0",
+    "furkot-galileo-data": "^1.0.0",
     "sax-super-stream": "^1.0.1"
   },
   "devDependencies": {
