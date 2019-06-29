@@ -59,6 +59,17 @@ describe('GPX import', function() {
     });
   });
 
+  it('parser imported garmin color track', function(done) {
+    var stream = fs.createReadStream(__dirname + '/fixtures/color-garmin.gpx');
+    parse(stream, function(err, trip) {
+      var expected = require('./fixtures/color-garmin.json');
+      should.exist(trip);
+      should.not.exist(err);
+      trip.should.eql(expected);
+      done();
+    });
+  });
+
   it('should raise error on invalid XML file', function(done) {
     var stream = fs.createReadStream(__dirname + '/fixtures/invalid.gpx');
     parse(stream, function(err, trip) {

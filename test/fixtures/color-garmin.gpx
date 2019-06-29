@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" creator="http://furkot.com/" version="1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xmlns:trp="http://www.garmin.com/xmlschemas/TripExtensions/v1" xmlns:tmd="http://www.garmin.com/xmlschemas/TripMetaDataExtensions/v1" xmlns:vptm="http://www.garmin.com/xmlschemas/ViaPointTransportationModeExtensions/v1" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd http://www.garmin.com/xmlschemas/GpxExtensions/v3 http://www8.garmin.com/xmlschemas/GpxExtensionsv3.xsd http://www.garmin.com/xmlschemas/TripExtensions/v1 http://www.garmin.com/xmlschemas/TripExtensionsv1.xsd http://www.garmin.com/xmlschemas/TripMetaDataExtensions/v1 http://www.garmin.com/xmlschemas/TripMetaDataExtensionsv1.xsd http://www.garmin.com/xmlschemas/ViaPointTransportationModeExtensions/v1 http://www.garmin.com/xmlschemas/ViaPointTransportationModeExtensionsv1.xsd">
+  <metadata>
+    <name>test POI USA</name>
+    <author>
+      <name>Furkot - road trip planner</name>
+      <email id="trips" domain="furkot.com"></email>
+      <link href="https://trips.furkot.com">
+        <text>Furkot</text>
+      </link>
+    </author>
+  </metadata>
+  <wpt lat="39.368860" lon="-107.034260">
+    <name>Frying Pan Road - Ruidi Reservoir</name>
+    <link href="http://www.motorcycleroads.com/75/2100/Routes/Frying-Pan-Road---Ruidi-Reservoir.html"></link>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:Address>
+          <gpxx:StreetAddress>122 Basalt Center Cir</gpxx:StreetAddress>
+          <gpxx:City>Basalt</gpxx:City>
+          <gpxx:State>CO</gpxx:State>
+          <gpxx:Country>United States</gpxx:Country>
+        </gpxx:Address>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+  <wpt lat="39.248710" lon="-106.886170">
+    <name>Co. Road 10 / Brushcreek Road : Snow Mass Village</name>
+    <link href="http://www.bestbikingroads.com/motorcycle-roads/motorbike-rides-in-united-states-/colorado-/co-road-10--_ef4840.html"></link>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:Address>
+          <gpxx:StreetAddress>64 Medicine Bow Rd</gpxx:StreetAddress>
+          <gpxx:City>Pitkin County</gpxx:City>
+          <gpxx:State>CO</gpxx:State>
+          <gpxx:Country>United States</gpxx:Country>
+        </gpxx:Address>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+  <trk>
+  </trk>
+  <trk>
+    <name>Frying Pan Road - Ruidi Reservoir</name>
+    <extensions>
+      <gpxx:TrackExtension>
+        <gpxx:DisplayColor>Red</gpxx:DisplayColor>
+      </gpxx:TrackExtension>
+    </extensions>
+    <trkseg>
+      <trkpt lat="39.368860" lon="-107.034260"></trkpt>
+      <trkpt lat="39.370890" lon="-107.027800"></trkpt>
+      <trkpt lat="39.314510" lon="-106.617130"></trkpt>
+      <trkpt lat="39.318900" lon="-106.622580"></trkpt>
+      <trkpt lat="39.320680" lon="-106.619410"></trkpt>
+      <trkpt lat="39.320390" lon="-106.617140"></trkpt>
+      <trkpt lat="39.312900" lon="-106.590630"></trkpt>
+      <trkpt lat="39.292210" lon="-106.527950"></trkpt>
+    </trkseg>
+  </trk>
+  <trk>
+    <name>Co. Road 10 / Brushcreek Road : Snow Mass Village</name>
+    <extensions>
+      <gpxx:TrackExtension>
+        <gpxx:DisplayColor>Green</gpxx:DisplayColor>
+      </gpxx:TrackExtension>
+    </extensions>
+    <trkseg>
+      <trkpt lat="39.248710" lon="-106.886170"></trkpt>
+      <trkpt lat="39.241490" lon="-106.893230"></trkpt>
+      <trkpt lat="39.235470" lon="-106.904330"></trkpt>
+      <trkpt lat="39.229880" lon="-106.916110"></trkpt>
+      <trkpt lat="39.219150" lon="-106.931730"></trkpt>
+      <trkpt lat="39.210360" lon="-106.946170"></trkpt>
+      <trkpt lat="39.210510" lon="-106.952240"></trkpt>
+    </trkseg>
+  </trk>
+</gpx>
