@@ -22,7 +22,7 @@
   },
   "devDependencies": {
     "jshint": "~2",
-    "mocha": "~3",
+    "mocha": "~5",
     "should": "~11"
   },
   "scripts": {
