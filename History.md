@@ -1,4 +1,13 @@
 
+2.0.1 / 2019-06-29
+==================
+
+ * decode pins as Guru (formerly Galileo) value of the waypoint <type> node
+ * decode track colors as Guru (formerly Galileo) value of the track <type> node
+ * decode track colors as Garmin extension
+ * update to ES6
+ * upgrade mocha
+
 2.0.0 / 2018-07-25
 ==================
 
