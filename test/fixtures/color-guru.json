@@ -9,7 +9,8 @@
       "name": "Frying Pan Road - Ruidi Reservoir",
       "notes": "122 Basalt Center Cir, Basalt, CO, USA",
       "url": "http://www.motorcycleroads.com/75/2100/Routes/Frying-Pan-Road---Ruidi-Reservoir.html",
-      "address": "122 Basalt Center Cir, Basalt, CO"
+      "address": "122 Basalt Center Cir, Basalt, CO",
+      "pin": 61
     },
     {
       "coordinates": {
@@ -19,7 +20,8 @@
       "name": "Co. Road 10 / Brushcreek Road : Snow Mass Village",
       "notes": "64 Medicine Bow Rd, Pitkin County, CO, USA",
       "url": "http://www.bestbikingroads.com/motorcycle-roads/motorbike-rides-in-united-states-/colorado-/co-road-10--_ef4840.html",
-      "address": "64 Medicine Bow Rd, Pitkin County, CO"
+      "address": "64 Medicine Bow Rd, Pitkin County, CO",
+      "pin": 8
     }
   ],
   "track": [
