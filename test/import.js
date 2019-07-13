@@ -81,6 +81,17 @@ describe('GPX import', function() {
     });
   });
 
+  it('empty GPX', function(done) {
+    var stream = fs.createReadStream(__dirname + '/fixtures/empty.gpx');
+    parse(stream, function(err, trip) {
+      should.not.exist(err);
+      trip.should.eql({
+        destination: 'empty'
+      });
+      done();
+    });
+  });
+
   it('should raise error on invalid XML file', function(done) {
     var stream = fs.createReadStream(__dirname + '/fixtures/invalid.gpx');
     parse(stream, function(err, trip) {
