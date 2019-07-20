@@ -1,4 +1,12 @@
 
+2.0.2 / 2019-07-19
+==================
+
+ * test with file exported from Guru (formerly Galileo)
+ * use actual Guru colors
+ * furkot-galileo-data 1.0.0 -> 1.0.1
+ * test for GPX without any points
+
 2.0.1 / 2019-06-29
 ==================
 
