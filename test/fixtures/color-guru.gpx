@@ -1,73 +1,40 @@
-<?xml version="1.0" encoding="utf-8" ?>
-<gpx xmlns="http://www.topografix.com/GPX/1/1" creator="http://furkot.com/" version="1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd http://www.garmin.com/xmlschemas/GpxExtensions/v3 http://www8.garmin.com/xmlschemas/GpxExtensionsv3.xsd">
-  <metadata>
-    <name>test POI USA</name>
-    <author>
-      <name>Furkot - road trip planner</name>
-      <email id="trips" domain="furkot.com"></email>
-      <link href="https://trips.furkot.com">
-        <text>Furkot</text>
-      </link>
-    </author>
-  </metadata>
-  <wpt lat="39.368860" lon="-107.034260">
-    <name>Frying Pan Road - Ruidi Reservoir</name>
-    <cmt>122 Basalt Center Cir, Basalt, CO, USA</cmt>
-    <desc>122 Basalt Center Cir, Basalt, CO, USA</desc>
-    <link href="http://www.motorcycleroads.com/75/2100/Routes/Frying-Pan-Road---Ruidi-Reservoir.html"></link>
-    <type>76</type>
-    <extensions>
-      <gpxx:WaypointExtension>
-        <gpxx:Address>
-          <gpxx:StreetAddress>122 Basalt Center Cir</gpxx:StreetAddress>
-          <gpxx:City>Basalt</gpxx:City>
-          <gpxx:State>CO</gpxx:State>
-          <gpxx:Country>United States</gpxx:Country>
-        </gpxx:Address>
-      </gpxx:WaypointExtension>
-    </extensions>
-  </wpt>
-  <wpt lat="39.248710" lon="-106.886170">
-    <name>Co. Road 10 / Brushcreek Road : Snow Mass Village</name>
-    <cmt>64 Medicine Bow Rd, Pitkin County, CO, USA</cmt>
-    <desc>64 Medicine Bow Rd, Pitkin County, CO, USA</desc>
-    <link href="http://www.bestbikingroads.com/motorcycle-roads/motorbike-rides-in-united-states-/colorado-/co-road-10--_ef4840.html"></link>
-    <type>42</type>
-    <extensions>
-      <gpxx:WaypointExtension>
-        <gpxx:Address>
-          <gpxx:StreetAddress>64 Medicine Bow Rd</gpxx:StreetAddress>
-          <gpxx:City>Pitkin County</gpxx:City>
-          <gpxx:State>CO</gpxx:State>
-          <gpxx:Country>United States</gpxx:Country>
-        </gpxx:Address>
-      </gpxx:WaypointExtension>
-    </extensions>
-  </wpt>
-  <trk>
-  </trk>
-  <trk>
-    <name>Frying Pan Road - Ruidi Reservoir</name>
-    <type>TrackStyle_FF0000C8</type>
-    <trkseg>
-      <trkpt lat="39.368860" lon="-107.034260"></trkpt>
-      <trkpt lat="39.376300" lon="-107.007340"></trkpt>
-      <trkpt lat="39.376400" lon="-106.975490"></trkpt>
-      <trkpt lat="39.379110" lon="-106.911770"></trkpt>
-      <trkpt lat="39.380020" lon="-106.808660"></trkpt>
-      <trkpt lat="39.319660" lon="-106.622420"></trkpt>
-      <trkpt lat="39.292210" lon="-106.527950"></trkpt>
-    </trkseg>
-  </trk>
-  <trk>
-    <name>Co. Road 10 / Brushcreek Road : Snow Mass Village</name>
-    <type>TrackStyle_00FF00C8</type>
-    <trkseg>
-      <trkpt lat="39.248710" lon="-106.886170"></trkpt>
-      <trkpt lat="39.226340" lon="-106.919520"></trkpt>
-      <trkpt lat="39.211490" lon="-106.941400"></trkpt>
-      <trkpt lat="39.210550" lon="-106.950360"></trkpt>
-      <trkpt lat="39.210510" lon="-106.952240"></trkpt>
-    </trkseg>
-  </trk>
+<?xml version="1.0" encoding="utf-8"?>
+<gpx version="1.1" creator="com.bodunov.GalileoPro/v4.0.3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.topografix.com/GPX/1/1" xmlns:gom="https://gurumaps.app/gpx/v1" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd https://gurumaps.app/gpx/v1 https://gurumaps.app/gpx/v1/schema.xsd">
+	<metadata>
+		<name>Mandall Lakes Trail #1121.1</name>
+		<desc>this is description</desc>
+		<time>2019-07-16T05:04:54.179Z</time>
+	</metadata>
+	<wpt lat="40.045882" lon="-107.075041">
+		<time>2019-07-16T14:00:00.000Z</time>
+		<name>other point</name>
+		<desc>Garfield County, CO, USA</desc>
+		<type>85</type>
+	</wpt>
+	<wpt lat="40.0473" lon="-107.07864">
+		<time>2019-07-16T05:04:54.188Z</time>
+		<name>Track</name>
+		<desc>Garfield County, CO, USA</desc>
+		<type>0</type>
+	</wpt>
+	<trk>
+		<name>Day 1 - Tue, Jul 16, 2019</name>
+		<type>TrackStyle_4CCC29C8</type>
+		<trkseg>
+			<trkpt lat="40.04588199" lon="-107.0750411"/>
+			<trkpt lat="40.04605398" lon="-107.076083"/>
+			<trkpt lat="40.04612297" lon="-107.07646"/>
+			<trkpt lat="40.04636399" lon="-107.0771881"/>
+		</trkseg>
+	</trk>
+	<trk>
+		<name>Track</name>
+		<type>TrackStyle_9A41D9C8</type>
+		<trkseg>
+			<trkpt lat="40.04729999" lon="-107.0786401"/>
+			<trkpt lat="40.04732996" lon="-107.07867"/>
+			<trkpt lat="40.04735997" lon="-107.07869"/>
+			<trkpt lat="40.04738997" lon="-107.0787"/>
+		</trkseg>
+	</trk>
 </gpx>
