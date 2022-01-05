@@ -44,7 +44,7 @@
             "notes": "4288 Lake Shore Dr",
             "timestamp": "2011-07-05T11:47:01Z",
             "route": {
-               "polyline": "yr}gGpd{`M~CtN??kHz@eBPwFz@iNlEgJ|As@PsDr@}HvBkD`@qCFcAQyCs@mAY_C{@cAYwBs@kDcAqCcA}Ai@mAa@yC{@}AQeBPeB`@}AXiGtAs@P_C}As@{@wBkD??Qa@i@eBYcAcAiCa@a@}Ai@a@Ya@QYGoB{@{@a@s@{@qCuEeBwBkDiC}HgFuAcAoBuAeBs@eEmAmAi@qNqG{DwBuAcAeBwBi@a@YYuAmA_CwBa@YwBcAmAi@YG{DeB}Aa@{@GsDP??yC`@eB?wBs@eE_CeEiCeBeBcA}AYs@a@s@oBwBuAcAeEwBcDmAuAQa@GiG?oBQcDcAYGuE}A{DqCmAmAqC_CsD}AwBs@oBi@_F}A_Ci@wIQi@?qCQ_CPcDXmE`@{@?eBa@YGi@GuAGeE?i@GwBcA??s@a@eE{@a@?}Aa@{@QcAa@oBcA{KaK{@i@{@Y{@i@cD{@sKiCeBa@qGwBmEoB{@s@}A{@yC}AQQoQcHa@QyCeBcDcAYG_F{@yCa@_U_FwBa@eEa@_CFwIz@_C?eEY}A?a@FsD`@cA?_CGsH_CwMiCyCa@s@QoBa@uEs@s@I"
+               "polyline": "yr}gGpd{`M~CtN??kHz@gBPwFz@iNlEgJ|As@PsDr@}HvBiD`@qCFeAQyCq@mAY_C{@cAYwBs@kDcAqCcA}Ak@mAa@yC{@}AQgBPeB`@_BXiGtAq@NaC}As@{@wBkD??Oa@k@eBYeAcAgCa@c@}Ai@a@Yc@OWIoB{@{@a@s@{@qCuEeBwBkDiC}HgFuAcAoBuAeBs@eEkAmAk@qNqG{DwBuAeAeBwBk@a@YYuAkA_CyBa@WwBeAmAi@YG{DgB}Aa@{@GuDN??yC`@eB?wBq@eEaCeEgCeBgBeA}AWs@c@s@mBwBuAcAeEwBcDmAsAOc@IiG?mBOcDeAYGuE}A}DqCkAmAqC_CsD}AwBs@oBi@_F_B_Ci@wIQi@?qCOaCNaDXmE`@{@?gBa@YGi@GuAIeE?i@GwBcA??s@a@eE}@a@?}Aa@{@OcAa@oBeA{KaK{@i@{@Y{@k@cD{@qKgCgBc@qGwBmEmB{@s@_B{@yC}AOQqQcHa@OyCgBaDcAYI_F{@yCa@_U}EwBc@eEa@_CHwIz@_C?eEY}A?a@FsD`@eA?_CGuH_CwMiCyCa@s@QmBa@wEs@s@I"
             }
          },
          {
@@ -56,7 +56,7 @@
             "notes": "5581 Lake Shore Dr",
             "timestamp": "2011-07-05T11:47:09Z",
             "route": {
-               "polyline": "{orhGxmt`MiD_@eEFiNbA_CXoF`@oBQuAi@a@Q_FcDiCuA}LyCiCcA}A{@YG??_FiCcDiCeBcAcHyCuAi@cAa@mAi@sDoBi@YuAi@wBi@wFQiGGoFa@}AGiC?iCQs@QuAi@iC{@GGkDoBoBmA{@i@cA{@{@cA_C{DYi@oFgJeEiG{K}L{@cA}AeBYYmAmAuAs@YGi@QwBi@uAYsH}AiCi@a@Ga@GmAQi@GcDi@yCa@oF{@}As@}AcAYQa@YGGa@Qs@QmAQ_C?mAPs@F??eBXwBr@qCbAyCPcAGoBi@eEuAeBGiCXa@F_Cz@{@Xa@FkDbA_C`@_CGyCQwBQoFi@sDuAyCmAmAa@kDa@cHcAqCi@}Ai@_CmA{@cAeByCiC}HmAmEQs@uAkDa@cA{@cAeE{DcAs@iGmEsDyCcAs@uAmA{DwBaGeBiCuAsDqCeBmAsDiCaAs@"
+               "polyline": "{orhGxmt`MiD_@eEFiNbA_CXoF`@oBOuAk@a@O_FcDgCuA}LyCiCcA}A{@YI??_FgCaDiCgBcAcH{CuAi@cAa@mAk@sDmBi@YuAk@wBi@yFQiGGoFa@}AIiC?gCOs@QuAi@iC{@GGkDoBoBmA{@i@cA{@{@eA_C{DYk@oFgJeEiG{K}L{@cA}AgBYYmAkAuAs@YGi@QwBi@uAYuH_BgCi@a@Gc@IkAOk@GaDk@{Ca@oF{@}As@}AcAYQa@YGGc@Qq@OmAQ_C?mAPs@F??eBXwBr@qCbAyCPeAIoBi@cEuAgBGgCXc@F_Cz@{@Xa@FkDbA_Cb@aCIyCOwBQoFi@sDuA{CmAkAa@kDa@cHcAqCk@}Ai@aCmA{@cAeB{CiC{HkAmEQs@uAkDa@cA{@eAeE{DcAs@iGmEsDyCeAs@uAkA{DwBaGgBgCuAuDqCeBkAsDiCaAs@"
             }
          },
          {
@@ -68,7 +68,7 @@
             "notes": "6076 Lake Shore Dr",
             "timestamp": "2011-07-05T11:47:45Z",
             "route": {
-               "polyline": "ssaiGdrm`McCeB{@{@GQYQkDcDeBcAmAYa@GcDYuAQoBi@oFsDcAYqCcAyCoBuAwBcAyCs@_FYeBi@iC{@eBeEgFi@i@eBmAeBs@wBYwB?kD`@eEPeBa@mAs@??uA}AuEsKeBsD{@mAmLiNcAcAoBqCi@mAa@wB?uAPuAh@eB`@a@`@a@nFuAlAi@h@{@`@cAXoBG_Ca@cAYi@uAwBkD_CiCoBcDcDsDwByCmAiGwBsOqGoM}AeEi@mIeE{@?}Ah@mAbAs@z@iCtAwBtAeEjDwBdBuA`@cDX_Cs@oBcAyC{@uEYmAYeL}B"
+               "polyline": "ssaiGdrm`McCeB{@{@GQYQkDaDeBcAmAYa@IcDWuAQmBk@qFsDcAYqCcAyCoBuAwBcAyCs@_FYeBi@iC{@eBeEgFk@k@eBkAgBs@wBYwB?kD`@cEPgBa@kAs@??uA}AwEsKeBsD{@mAmLgNcAeAoBqCi@kAc@wB?uAPuAj@gB`@a@`@a@nFuAlAi@h@{@`@eAXmBGaCa@cAYk@uAwBkD_CiCoBaDaDsDwB{CmAiGwBsOqGmM_BeEi@mIeE{@?_Bj@kAbAs@z@iCtAwBtAeEjDwBdBuA`@aDX_Cs@oBcAyC{@wEYkAYeL}B"
             }
          },
          {
@@ -78,7 +78,7 @@
             },
             "name": "Lake George Lookout",
             "route": {
-               "polyline": "gdjiGhwg`MeQmDkSs@qGYa@Q{@YmA{@qCkDwB{DoBmEeEmIi@_CeI}LcAuAsH{K{O_UmIiNmA{D{@iCYcAGmA?mAz@cDtAeBdEeEh@{@X{@XmA?mA?uAY}As@yCoBcDcA_Ca@uAcAiCi@eBsDoM??Q}AFiCPs@`@cAr@mAz@}AF{@QyCQuEs@gJYoBs@qCoFsOeEmTcAkHQ_F?gFXsH`@oF?oBcAwTi@qJGoBFoFPcD|AsKtAwFr@eE`@eE`@iG?_FPyCh@qCh@mAnBiCh@}AF{@F}AGs@YcAwB{DYmAGcA?}Ah@_C`@kDFkDYqCGyC?mAh@qGFuAGuAQ}AmAwBs@a@kDuAcAcA{@}AGwB???sD?}AGeBs@eEQ_C_@gD"
+               "polyline": "gdjiGhwg`MeQmDmSs@qGYa@O{@YmA{@qCkDwB{DoBmEcEoIk@_CeI}LcAuAuH{K{O_UmIiNmA{D{@iCYcAGmA?kAz@cDtAeBbEeEj@{@X{@XmA?kA?uAY}As@{CoBaDcAaCa@uAeAgCi@gBsDmM??Q_BFgCPs@`@cAr@mAz@}AF{@O{CQuEs@gJWoBs@qCoFsOeEmTcAkHQ_F?gFXsH`@oF?oBcAwTk@oJGoBFoFPcD|AsKtAwFr@eE`@cE`@kG?}EPyCh@qCj@mAlBiCj@}AF{@F}AGs@YcAwB}DYkAGeA?}Ah@_Cb@kDFkDYqCGyC?mAh@qGFuAGuAO}AmAwBs@a@kDuAcAcA{@_BGwB???sD?}AIgBq@cEQaC_@eD"
             },
             "pin": 61
          }
