@@ -1,6 +1,6 @@
 [![NPM version][npm-image]][npm-url]
-[![Build Status][travis-image]][travis-url]
-[![Dependency Status][gemnasium-image]][gemnasium-url]
+[![Build Status][build-image]][build-url]
+[![Dependency Status][deps-image]][deps-url]
 
 # furkot-import-gpx
 
@@ -35,8 +35,8 @@ MIT © [Damian Krzeminski](https://code42day.com)
 [npm-image]: https://img.shields.io/npm/v/furkot-import-gpx.svg
 [npm-url]: https://npmjs.org/package/furkot-import-gpx
 
-[travis-url]: https://travis-ci.org/furkot/import-gpx
-[travis-image]: https://img.shields.io/travis/furkot/import-gpx.svg
+[build-url]: https://github.com/furkot/import-gpx/actions/workflows/check.yaml
+[build-image]: https://img.shields.io/github/workflow/status/furkot/import-gpx/check
 
-[gemnasium-image]: https://img.shields.io/gemnasium/furkot/import-gpx.svg
-[gemnasium-url]: https://gemnasium.com/furkot/import-gpx
+[deps-image]: https://img.shields.io/librariesio/release/npm/furkot-import-gpx
+[deps-url]: https://libraries.io/npm/furkot-import-gpx
