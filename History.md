@@ -1,4 +1,10 @@
 
+1.0.6 / 2022-01-05
+==================
+
+ * update @pirxpilot/google-polyline to ~3
+ * upgrade `mocha` and `should`
+
 1.0.5 / 2017-07-25
 ==================
 
