@@ -81,6 +81,17 @@ describe('GPX import', function () {
     });
   });
 
+  it('parser imported gpx link', function(done) {
+    const stream = fs.createReadStream(__dirname + '/fixtures/with-link.gpx');
+    parse(stream, function (err, trip) {
+      const expected = require('./fixtures/with-link.json');
+      should.not.exist(err);
+      should.exist(trip);
+      trip.should.eql(expected);
+      done();
+    });
+  });
+
   it('empty GPX', function (done) {
     const stream = fs.createReadStream(__dirname + '/fixtures/empty.gpx');
     parse(stream, function (err, trip) {
