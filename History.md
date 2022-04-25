@@ -1,4 +1,10 @@
 
+2.0.4 / 2022-04-25
+==================
+
+ * extract link from metadata if present
+ * modernize test code
+
 2.0.3 / 2022-01-05
 ==================
 
