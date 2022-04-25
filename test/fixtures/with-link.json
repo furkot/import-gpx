@@ -1,0 +1,26 @@
+{
+  "destination": "Canavacia waterfall and Cornisello Lake",
+  "url": "https://www.outdooractive.com/r/30205871",
+  "notes": "A challenging, high-altitude itinerary through the stunning landscape of the Adamello-Presanella group, featuring the Cornisello lakes and the majestic Canavacia waterfall.",
+  "track": [
+    [
+      {
+        "coordinates": {
+          "lon": 10.75412,
+          "lat": 46.212967
+        },
+        "parent": {
+          "index": 0,
+          "name": "Canavacia waterfall and Cornisello Lake",
+          "notes": "A challenging, high-altitude itinerary through the stunning landscape of the Adamello-Presanella group, featuring the Cornisello lakes and the majestic Canavacia waterfall."
+        }
+      },
+      {
+        "coordinates": {
+          "lon": 10.754163,
+          "lat": 46.212864
+        }
+      }
+    ]
+  ]
+}

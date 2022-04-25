@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<gpx version="1.1" creator="outdooractive - http://www.outdooractive.com" xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" xmlns:oa="http://www.outdooractive.com/GPX/Extensions/1">
+  <metadata>
+    <name>Canavacia waterfall and Cornisello Lake</name>
+    <author>
+      <name>Apt Madonna di Campiglio Pinzolo Val Rendena FA - APT Madonna di Campiglio, Pinzolo, Val Rendena</name>
+    </author>
+    <link href="https://www.outdooractive.com/r/30205871"/>
+    <time>2022-03-07T13:40:28.6</time>
+    <extensions>
+      <oa:oaCategory>mountaineering</oa:oaCategory>
+    </extensions>
+  </metadata>
+  <trk>
+    <name>Canavacia waterfall and Cornisello Lake</name>
+    <desc>A challenging, high-altitude itinerary through the stunning landscape of the Adamello-Presanella group, featuring the Cornisello lakes and the majestic Canavacia waterfall.</desc>
+    <type>mountaineering</type>
+    <trkseg>
+      <trkpt lat="46.212967" lon="10.75412">
+        <ele>1389.1</ele>
+      </trkpt>
+      <trkpt lat="46.212864" lon="10.754163">
+        <ele>1389.0</ele>
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>
