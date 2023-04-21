@@ -1,4 +1,10 @@
 
+2.0.5 / 2023-04-22
+==================
+
+ * update to @furkot/guru-data 2.1.0
+ * update to @furkot/garmin-data 2.1.0
+
 2.0.4 / 2022-04-25
 ==================
 
