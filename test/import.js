@@ -1,9 +1,10 @@
+const { describe, it } = require('node:test');
 const should = require('should');
 const fs = require('fs');
 const parse = require('..');
 
 describe('GPX import', function () {
-  it('parser imported gpx single stop', function (done) {
+  it('parser imported gpx single stop', function (t, done) {
     const stream = fs.createReadStream(__dirname + '/fixtures/single-stop.gpx');
     parse(stream, function (err, trip) {
       const expected = require('./fixtures/single-stop.json');
@@ -14,7 +15,7 @@ describe('GPX import', function () {
     });
   });
 
-  it('parser imported gpx route', function (done) {
+  it('parser imported gpx route', function (t, done) {
     const stream = fs.createReadStream(__dirname + '/fixtures/usa-route.gpx');
     parse(stream, function (err, trip) {
       const expected = require('./fixtures/usa-route.json');
@@ -26,7 +27,7 @@ describe('GPX import', function () {
     });
   });
 
-  it('parser imported gpx stops', function (done) {
+  it('parser imported gpx stops', function (t, done) {
     const stream = fs.createReadStream(__dirname + '/fixtures/usa-stops.gpx');
     parse(stream, function (err, trip) {
       const expected = require('./fixtures/usa-stops.json');
@@ -37,7 +38,7 @@ describe('GPX import', function () {
     });
   });
 
-  it('parser imported gpx track', function (done) {
+  it('parser imported gpx track', function (t, done) {
     const stream = fs.createReadStream(__dirname + '/fixtures/usa-track.gpx');
     parse(stream, function (err, trip) {
       const expected = require('./fixtures/usa-track.json');
@@ -48,7 +49,7 @@ describe('GPX import', function () {
     });
   });
 
-  it('parser imported garmin route point extension', function (done) {
+  it('parser imported garmin route point extension', function (t, done) {
     const stream = fs.createReadStream(__dirname + '/fixtures/rpt-ext.gpx');
     parse(stream, function (err, trip) {
       const expected = require('./fixtures/rpt-ext.json');
@@ -59,7 +60,7 @@ describe('GPX import', function () {
     });
   });
 
-  it('parser imported garmin color track', function (done) {
+  it('parser imported garmin color track', function (t, done) {
     const stream = fs.createReadStream(__dirname + '/fixtures/color-garmin.gpx');
     parse(stream, function (err, trip) {
       const expected = require('./fixtures/color-garmin.json');
@@ -70,7 +71,7 @@ describe('GPX import', function () {
     });
   });
 
-  it('parser imported guru color track', function (done) {
+  it('parser imported guru color track', function (t, done) {
     const stream = fs.createReadStream(__dirname + '/fixtures/color-guru.gpx');
     parse(stream, function (err, trip) {
       const expected = require('./fixtures/color-guru.json');
@@ -81,7 +82,7 @@ describe('GPX import', function () {
     });
   });
 
-  it('parser imported gpx link', function(done) {
+  it('parser imported gpx link', function (t, done) {
     const stream = fs.createReadStream(__dirname + '/fixtures/with-link.gpx');
     parse(stream, function (err, trip) {
       const expected = require('./fixtures/with-link.json');
@@ -92,7 +93,7 @@ describe('GPX import', function () {
     });
   });
 
-  it('empty GPX', function (done) {
+  it('empty GPX', function (t, done) {
     const stream = fs.createReadStream(__dirname + '/fixtures/empty.gpx');
     parse(stream, function (err, trip) {
       should.not.exist(err);
@@ -103,7 +104,7 @@ describe('GPX import', function () {
     });
   });
 
-  it('should raise error on invalid XML file', function (done) {
+  it('should raise error on invalid XML file', function (t, done) {
     const stream = fs.createReadStream(__dirname + '/fixtures/invalid.gpx');
     parse(stream, function (err, trip) {
       should.exist(err);
