@@ -1,5 +1,5 @@
 {
-  "name": "furkot-import-gpx",
+  "name": "@furkot/import-gpx",
   "version": "2.0.5",
   "description": "Import GPX for Furkot",
   "author": {
