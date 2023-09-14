@@ -19,7 +19,7 @@
   "dependencies": {
     "@furkot/garmin-data": "^2.1.0",
     "@furkot/guru-data": "^2.1.0",
-    "sax-super-stream": "^1.0.1"
+    "sax-super-stream": "^2.0.0"
   },
   "devDependencies": {
     "jshint": "~2",
