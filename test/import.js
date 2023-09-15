@@ -1,116 +1,84 @@
-const should = require('should');
-const fs = require('fs');
+const test = require('node:test');
+const assert = require('node:assert/strict');
+const fs = require('node:fs');
+const path = require('node:path');
+const { Readable } = require('node:stream');
+
 const parse = require('..');
 
-describe('GPX import', function () {
-  it('parser imported gpx single stop', function (done) {
-    const stream = fs.createReadStream(__dirname + '/fixtures/single-stop.gpx');
-    parse(stream, function (err, trip) {
-      const expected = require('./fixtures/single-stop.json');
-      should.not.exist(err);
-      should.exist(trip);
-      trip.should.eql(expected);
-      done();
-    });
-  });
 
-  it('parser imported gpx route', function (done) {
-    const stream = fs.createReadStream(__dirname + '/fixtures/usa-route.gpx');
-    parse(stream, function (err, trip) {
-      const expected = require('./fixtures/usa-route.json');
-      // require('fs').writeFileSync('usa-route.json', JSON.stringify(trip, null, 2));
-      should.exist(trip);
-      should.not.exist(err);
-      trip.should.eql(expected);
-      done();
-    });
-  });
+/* global TextDecoderStream */
 
-  it('parser imported gpx stops', function (done) {
-    const stream = fs.createReadStream(__dirname + '/fixtures/usa-stops.gpx');
-    parse(stream, function (err, trip) {
-      const expected = require('./fixtures/usa-stops.json');
-      should.exist(trip);
-      should.not.exist(err);
-      trip.should.eql(expected);
-      done();
-    });
-  });
+function createFromStream(file) {
+  const name = path.join(__dirname, file);
+  const stream = fs.createReadStream(name);
+  return Readable.toWeb(stream).pipeThrough(new TextDecoderStream());
+}
 
-  it('parser imported gpx track', function (done) {
-    const stream = fs.createReadStream(__dirname + '/fixtures/usa-track.gpx');
-    parse(stream, function (err, trip) {
-      const expected = require('./fixtures/usa-track.json');
-      should.exist(trip);
-      should.not.exist(err);
-      trip.should.eql(expected);
-      done();
-    });
-  });
+test('parser imported gpx single stop', async function () {
+  const stream = createFromStream('/fixtures/single-stop.gpx');
+  const trip = await parse(stream);
+  const expected = require('./fixtures/single-stop.json');
+  assert.deepEqual(trip, expected);
+});
 
-  it('parser imported garmin route point extension', function (done) {
-    const stream = fs.createReadStream(__dirname + '/fixtures/rpt-ext.gpx');
-    parse(stream, function (err, trip) {
-      const expected = require('./fixtures/rpt-ext.json');
-      should.not.exist(err);
-      should.exist(trip);
-      trip.should.eql(expected);
-      done();
-    });
-  });
+test('parser imported gpx route', async function () {
+  const stream = createFromStream('/fixtures/usa-route.gpx');
+  const trip = await parse(stream);
+  const expected = require('./fixtures/usa-route.json');
+  // require('fs').writeFileSync('usa-route.json', JSON.stringify(trip, null, 2));
+  assert.deepEqual(trip, expected);
+});
 
-  it('parser imported garmin color track', function (done) {
-    const stream = fs.createReadStream(__dirname + '/fixtures/color-garmin.gpx');
-    parse(stream, function (err, trip) {
-      const expected = require('./fixtures/color-garmin.json');
-      should.exist(trip);
-      should.not.exist(err);
-      trip.should.eql(expected);
-      done();
-    });
-  });
+test('parser imported gpx stops', async function () {
+  const stream = createFromStream('/fixtures/usa-stops.gpx');
+  const trip = await parse(stream);
+  const expected = require('./fixtures/usa-stops.json');
+  assert.deepEqual(trip, expected);
+});
 
-  it('parser imported guru color track', function (done) {
-    const stream = fs.createReadStream(__dirname + '/fixtures/color-guru.gpx');
-    parse(stream, function (err, trip) {
-      const expected = require('./fixtures/color-guru.json');
-      should.exist(trip);
-      should.not.exist(err);
-      trip.should.eql(expected);
-      done();
-    });
-  });
+test('parser imported gpx track', async function () {
+  const stream = createFromStream('/fixtures/usa-track.gpx');
+  const trip = await parse(stream);
+  const expected = require('./fixtures/usa-track.json');
+  assert.deepEqual(trip, expected);
+});
 
-  it('parser imported gpx link', function(done) {
-    const stream = fs.createReadStream(__dirname + '/fixtures/with-link.gpx');
-    parse(stream, function (err, trip) {
-      const expected = require('./fixtures/with-link.json');
-      should.not.exist(err);
-      should.exist(trip);
-      trip.should.eql(expected);
-      done();
-    });
-  });
+test('parser imported garmin route point extension', async function () {
+  const stream = createFromStream('/fixtures/rpt-ext.gpx');
+  const trip = await parse(stream);
+  const expected = require('./fixtures/rpt-ext.json');
+  assert.deepEqual(trip, expected);
+});
 
-  it('empty GPX', function (done) {
-    const stream = fs.createReadStream(__dirname + '/fixtures/empty.gpx');
-    parse(stream, function (err, trip) {
-      should.not.exist(err);
-      trip.should.eql({
-        destination: 'empty'
-      });
-      done();
-    });
-  });
+test('parser imported garmin color track', async function () {
+  const stream = createFromStream('/fixtures/color-garmin.gpx');
+  const trip = await parse(stream);
+  const expected = require('./fixtures/color-garmin.json');
+  assert.deepEqual(trip, expected);
+});
 
-  it('should raise error on invalid XML file', function (done) {
-    const stream = fs.createReadStream(__dirname + '/fixtures/invalid.gpx');
-    parse(stream, function (err, trip) {
-      should.exist(err);
-      err.should.have.property('err', 'invalid');
-      err.should.have.property('message');
-      should.not.exist(trip);
-      done();
-    });
-  });
+test('parser imported guru color track', async function () {
+  const stream = createFromStream('/fixtures/color-guru.gpx');
+  const trip = await parse(stream);
+  const expected = require('./fixtures/color-guru.json');
+  assert.deepEqual(trip, expected);
+});
+
+test('parser imported gpx link', async function () {
+  const stream = createFromStream('/fixtures/with-link.gpx');
+  const trip = await parse(stream);
+  const expected = require('./fixtures/with-link.json');
+  assert.deepEqual(trip, expected);
+});
+
+test('empty GPX', async function () {
+  const stream = createFromStream('/fixtures/empty.gpx');
+  const trip = await parse(stream);
+  assert.deepEqual(trip, { destination: 'empty' });
+});
+
+test('should raise error on invalid XML file', async function () {
+  const stream = createFromStream('/fixtures/invalid.gpx');
+  await assert.rejects(parse(stream));
 });
