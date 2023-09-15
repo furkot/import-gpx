@@ -1,4 +1,10 @@
 
+3.0.0 / 2023-09-15
+==================
+
+ * using browser enabled super sax stream
+ * change to to @furkot/import-gpx
+
 2.0.5 / 2023-04-22
 ==================
 
