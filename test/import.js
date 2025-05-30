@@ -1,19 +1,19 @@
-const test = require('node:test');
-const assert = require('node:assert/strict');
-const fs = require('node:fs');
-const path = require('node:path');
-const { Readable } = require('node:stream');
+import assert from 'node:assert/strict';
+import fs from 'node:fs';
+import path from 'node:path';
+import { Readable } from 'node:stream';
+import test from 'node:test';
 
-const parse = require('..');
+import parse from '../lib/import.js';
 
 function createFromStream(file) {
-  const name = path.resolve(__dirname, file);
+  const name = path.resolve(import.meta.dirname, file);
   const stream = fs.createReadStream(name);
   return Readable.toWeb(stream).pipeThrough(new TextDecoderStream());
 }
 
 function readJSON(file) {
-  const name = path.resolve(__dirname, file);
+  const name = path.resolve(import.meta.dirname, file);
   return JSON.parse(fs.readFileSync(name, 'utf8'));
 }
 

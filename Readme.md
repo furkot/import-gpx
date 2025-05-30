@@ -17,7 +17,8 @@ $ npm install --save @furkot/import-gpx
 Use as a transform stream: pipe network responses, files etc. and listen on `data` event.
 
 ```js
-const furkotImportGpx = require('@furkot/import-gpx');
+import furkotImportGpx from '@furkot/import-gpx';
+
 const { body } = await fetch('https://example.com/my.gpx');
 const from = body.pipeThrough(new TextDecoderStream());
 const trip = await furkotImportGpx(from);
